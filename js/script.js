@@ -1,0 +1,1 @@
+controlledIndex.init('canvas')
