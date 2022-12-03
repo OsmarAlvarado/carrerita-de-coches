@@ -23,9 +23,10 @@ const controlledIndex = {
 
 
 
+
   },
 
-  setDimensions() {
+  setDimensions() { //define el tamaño de las ventanas
     this.gameSize = {
       w: window.innerWidth,
       h: window.innerHeight
@@ -35,6 +36,11 @@ const controlledIndex = {
     this.canvasNode.setAttribute('height', this.gameSize.h)
   },
 
+  setEventListeners() {
+    document.onkeydown = event => {
+
+    }
+  }
 
 
 
