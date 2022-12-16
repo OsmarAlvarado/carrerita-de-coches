@@ -40,7 +40,7 @@ const controlledIndex = {
     document.onkeydown = event => {
 
     }
-  }
+  },
 
 
 
